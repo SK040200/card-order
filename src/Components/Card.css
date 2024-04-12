@@ -1,0 +1,173 @@
+.maincard {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 86%;
+    margin-top: 24px;
+    margin: auto;
+}
+
+.Main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.popular {
+    margin-top: 40px;
+    font-weight: 3000px;
+    font-size: 34px;
+    text-transform: capitalize;
+    font-weight: bolder;
+
+
+}
+
+.star {
+    width: 24px;
+    margin-left: 12px;
+    margin-right: 12px;
+
+
+}
+
+.border-colourblue {
+    position: relative;
+    border: 0.5px solid rgb(15, 126, 195);
+    width: 80px;
+    display: flex;
+    height: 0px;
+
+
+
+}
+
+.bluestar {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-container {
+
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    float: left;
+    overflow: auto;
+    margin-top: 30%;
+    margin-right: 80px;
+    margin-left: 100px;
+
+
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.carttitle {
+    display: flex;
+    width: auto;
+}
+
+.originalprice::before {
+    content: "$";
+
+}
+
+.originalprice {
+    margin-top: 10px;
+    text-decoration-line: line-through;
+    color: rgb(153, 150, 150);
+    margin-left: 40px;
+    padding-left: 20px;
+}
+
+.finalprice::before {
+    content: "$";
+
+}
+
+.finalprice {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bolder;
+    position: static;
+
+}
+
+.cardname {
+    padding-bottom: 1px;
+    margin: 0.5rem;
+    font-size: 18px;
+    width: auto;
+    margin-right: 30px;
+    margin-top: 12px;
+    text-transform: capitalize;
+
+
+}
+
+.card-description {
+    padding-top: -2px;
+    padding-bottom: 15px;
+    margin: 0.5rem 5%;
+    color: silver;
+    margin-left: 8px;
+}
+
+.increment-decrement {
+    width: 90px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(4, 133, 193);
+    border-radius: 8px;
+    float: left;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btn-group {
+    display: flex;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px skyblue;
+    border-style: solid;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+
+
+}
+
+.Add-to-cart {
+    width: 300px;
+    height: 40px;
+    align-items: center;
+    background-color: white;
+    font-weight: bold;
+    color: rgb(4, 133, 193);
+    border-color: rgb(4, 133, 193);
+}
+
+.value {
+    padding-top: 10px;
+}
+
+.badge {
+    position: absolute;
+    width: 80px;
+    border-style: solid;
+    margin-left: 219px;
+}

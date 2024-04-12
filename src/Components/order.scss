@@ -1,0 +1,369 @@
+.MainTable {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px
+}
+
+.backtohome {
+    margin-bottom: 36px;
+    margin-left: 10px;
+
+    .a::before {
+        content: '←'
+    }
+
+    .a:link {
+        text-decoration: none;
+        text-transform: capitalize;
+
+    }
+
+    a:visited {
+        color: rgb(152, 152, 152)
+    }
+}
+
+.ordersummary {
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 26px;
+
+}
+
+.main-table {
+    display: flex;
+    width: 100%;
+
+    .table1 {
+        width: 50%;
+        border: 1px solid #E0E0E0;
+        margin-right: 16px;
+        border-radius: 4px;
+        height: 600px;
+        padding-left: 25px;
+        padding-top: 25px;
+        padding-right: 25px;
+
+        .Header {
+            display: flex;
+
+            .H1 {
+                margin: auto;
+                margin-right: 80px;
+                margin-left: 40px;
+                margin-top: 20px;
+                font-size: 12px;
+                font-weight: 600;
+                color: rgb(166, 166, 166);
+                font-weight: bold;
+            }
+
+            .H2 {
+                margin: auto;
+                margin-right: 100px;
+                margin-left: 40px;
+                margin-top: 20px;
+                font-size: 12px;
+                font-weight: 600;
+                color: rgb(166, 166, 166);
+                font-weight: bold;
+            }
+
+            .H3 {
+                margin: auto;
+                margin-right: 120px;
+                margin-left: 40px;
+                margin-top: 20px;
+                font-size: 12px;
+                font-weight: 600;
+                color: rgb(166, 166, 166);
+                font-weight: bold;
+
+            }
+        }
+
+        .Border {
+            border: 1px solid #E0E0E0;
+            margin-top: 20px;
+        }
+
+        .data {
+            height: 300px;
+            width: fit-content;
+            position: fixed;
+        }
+
+        .tablerow {
+            display: flex;
+            width: 50px;
+            margin-top: 25px;
+
+            .p1 {
+                margin-right: 140px;
+                margin-left: 40px;
+                margin-top: 18px;
+                color: rgb(166, 166, 166);
+
+
+            }
+
+            .p2 {
+                margin-right: 50px;
+                width: 120px;
+                display: flex;
+                flex: none;
+                margin-top: 18px;
+                text-transform: capitalize;
+                font-weight: bold;
+                color: rgb(166, 166, 166);
+            }
+        }
+
+        .btn-group {
+            margin-top: 18px;
+            display: flex;
+            background-color: white;
+            border-radius: 3px;
+            border: 1px rgb(164, 179, 185);
+            border-style: solid;
+            height: 40px;
+
+            .p3 {
+                text-align: center;
+                padding-right: 20px;
+                padding-top: 18px;
+                margin-left: 20px;
+                margin-right: 20px;
+                padding-bottom: 8px;
+                padding-left: 10px;
+                font-weight: bold;
+
+            }
+
+            .increment-decrement {
+                width: 40px;
+                height: 40px;
+                background-color: rgb(91, 93, 94);
+                border-radius: 3px;
+                float: left;
+                color: #fff;
+                cursor: pointer;
+            }
+
+        }
+
+        .footer {
+            position: fixed;
+            width: 620px;
+            height: 500px;
+
+            .Border1 {
+                margin: auto;
+                margin-top: 50px;
+                border-bottom: 1px solid #E0E0E0;
+                margin-bottom: 30px;
+                position: static;
+            }
+
+            .a:link {
+                text-decoration: none;
+
+                font-weight: bold;
+            }
+
+            a:visited {
+                color: rgb(19, 157, 221);
+            }
+
+        }
+    }
+
+    .table2 {
+        width: 40%;
+        border: 1px solid #E0E0E0;
+        margin-right: 16px;
+        border-radius: 4px;
+        height: 600px;
+        padding-left: 25px;
+        padding-top: 25px;
+        padding-right: 25px;
+        background-color: #c7d6de;
+
+        .pricedetails {
+            font-weight: bold;
+            text-transform: capitalize;
+            font-size: 20px;
+            margin-left: 40px;
+            color: rgb(47, 46, 46);
+        }
+
+        .Border2 {
+            border: 1px solid #E0E0E0;
+            margin-top: 33px;
+
+        }
+
+        .price {
+            overflow: auto;
+            border: 1px solid white;
+            width: auto;
+            height: 200px;
+
+            .pricerow {
+                display: flex;
+                width: 50px;
+                margin-top: 25px;
+            }
+
+            .p4 {
+                margin-right: 8px;
+                margin-left: 28px;
+                margin-top: 18px;
+                width: 20px;
+
+            }
+
+            .p5 {
+                margin-right: 8px;
+                margin-top: 18px;
+
+            }
+
+            .p6::before {
+                content: "$";
+
+            }
+
+            .p6 {
+                margin-top: 18px;
+
+            }
+
+            .p7::before {
+                content: "$";
+
+            }
+
+            .p7 {
+                margin-top: 18px;
+                margin-left: 300px;
+
+            }
+        }
+
+        .Border3 {
+            border-bottom: 1px solid #E0E0E0;
+            margin-top: 28px;
+
+        }
+
+        .summary {
+            display: flex;
+
+            .p8 {
+                margin-right: 8px;
+                margin-left: 22px;
+                margin-top: 20px;
+                width: 200px;
+                font-weight: 400px;
+                font-size: 14px;
+
+            }
+
+            .p9::before {
+                content: "$";
+            }
+
+            .p9 {
+                margin-left: 160px;
+                margin-top: 14px;
+                font-weight: 400px;
+                font-size: 14px;
+                color: green;
+            }
+        }
+
+        .Delivery {
+            display: flex;
+
+            .p10 {
+                margin-left: 22px;
+                font-weight: 400px;
+                font-size: 14px;
+            }
+
+            .p11::before {
+                content: "$";
+
+            }
+
+            .p11 {
+                margin-left: 300px;
+                font-weight: 400px;
+                font-size: 14px;
+            }
+        }
+
+        .Taxes {
+            display: flex;
+
+            .p12 {
+                margin-left: 22px;
+                font-weight: 400px;
+                font-size: 14px;
+            }
+
+            .p13::before {
+                content: "$";
+
+            }
+
+            .p13 {
+                margin-left: 250px;
+                font-weight: 400px;
+                font-size: 14px;
+            }
+        }
+
+        .total {
+            display: flex;
+
+            .p14 {
+                margin-left: 22px;
+                margin-top: 10px;
+                font-weight: 600;
+                font-size: 16px;
+            }
+
+            .p15::before {
+                content: "$";
+
+            }
+
+            .p15 {
+                margin-left: 320px;
+                margin-top: 10px;
+                font-weight: 800;
+                font-size: 26px;
+            }
+        }
+
+        .placebutton {
+            margin-left: 110px;
+            width: 280px;
+            color: white;
+            background-color: rgb(29, 114, 218);
+            border: none;
+            height: 35px;
+            font-weight: bold;
+
+
+        }
+
+
+
+    }
+
+
+
+}
